@@ -22,6 +22,10 @@ Return JSON only.
 - If unsure, lower confidence_score.
 - If multiple vessel types exist, group jobs by vessel_type.
 - Each vessel_type must contain its own job_positions list.
+- - Output must be STRICT valid JSON.
+- Do not include trailing commas.
+- Do not include extra spaces, symbols, or text.
+- Ensure the JSON can be directly parsed (copy-paste ready).
 
 ## JSON Output
 
